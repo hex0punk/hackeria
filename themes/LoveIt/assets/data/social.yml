@@ -513,7 +513,7 @@ rss:
 # 065: slack
 slack:
   Weight: 3
-  Prefix: https://slack.com/
+  Template: https://%v.slack.com
   Title: Slack
   Icon:
     Class: fab fa-slack fa-fw
