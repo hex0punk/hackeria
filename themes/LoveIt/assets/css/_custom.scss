@@ -34,6 +34,10 @@ header {
               position: relative;
               @include transform(translateY(-.75rem));
             }
+            @media screen and (max-width: 33rem) {
+              width: 98%;
+              
+            }
           }
         }
     }   
