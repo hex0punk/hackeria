@@ -1,0 +1,40 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+header {
+    display: none !important;
+}
+
+.home[posts] {
+    .home-avatar img {
+      width: 33rem;
+      box-shadow: none;
+    }
+}
+
+.home {
+    .home-profile {
+        .home-subtitle {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin: 0;
+            padding: .5rem;
+        }
+        .home-avatar {
+          padding: .5rem;
+        
+          img {
+            @include border-radius(0%);
+            @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, 0));
+            @include transition(all 0.4s ease);
+            
+            &:hover {
+              position: relative;
+              @include transform(translateY(-.75rem));
+            }
+          }
+        }
+    }   
+}
