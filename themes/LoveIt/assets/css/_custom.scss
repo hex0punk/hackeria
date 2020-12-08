@@ -9,7 +9,7 @@ header {
 
 .home[posts] {
     .home-avatar img {
-      width: 33rem;
+      width: 28rem;
       box-shadow: none;
     }
 }
@@ -33,6 +33,10 @@ header {
             &:hover {
               position: relative;
               @include transform(translateY(-.75rem));
+            }
+            @media screen and (max-width: 33rem) {
+              width: 90%;
+              
             }
           }
         }
